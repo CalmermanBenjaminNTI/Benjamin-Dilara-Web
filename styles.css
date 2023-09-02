@@ -1,33 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
 *{
     margin: 0;
 }
 
 body{
     display: grid;
-    grid-template: 50% 50% / 50% 50%;
+    grid-template-columns: 50% 50%;
     background-color: black;
+    height: 100vh;
 }
 
-div{
+/* div{
     background-color: white;
+} */
+
+header{
+    font-size: 2rem;
+    padding: 5px;
+    font-family: 'Cinzel';
 }
 
-h1{
+header.benjamin{
     text-align: right;
-    font-size: large;
-    line-height: normal;
+    text-shadow: gray 1px 1px;
+    background: rgb(255,0,101);
+    background: linear-gradient(-90deg, rgba(255,0,101,1) 0%, rgba(0,0,0,1) 60%);
+    border-bottom: ridge turquoise 5px;
+    color: black;
 }
 
-.benjamin {
-    margin-right: 5px;
+div.benjamin {
+    border-right: 5px ridge turquoise;
+    background: rgb(255,0,101);
+    background: linear-gradient(-40deg, rgba(255,0,101,0.5) 0%, rgba(0,0,0,1) 50%);
+    color: teal;
+    font-size: 18px;
+    font-family: 'Playfair Display';
 }
 
-h2{
+div.benjamin h1{
+    color: maroon;
+    font-family: 'Cinzel';
+    text-shadow: 1px 1px teal;
+}
+
+div.benjamin h2{
+    color: maroon;
+    font-family: 'Cinzel';
+    text-shadow: 1px 1px teal;
+}
+
+header.dilara{
     text-align: left;
-    font-size: large;
-    line-height: normal;
 }
 
-.dilara {
-    margin-left: 5px;
+div.dilara {
+    background-color: white;
+    border-left:groove 5px turquoise;
+}
+
+div.text{
+    padding: 1em;
 }
